@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+   
+    stages {
+        stage('Starting') {
+            steps {
+                echo 'Started pipeline'
+            }
+        }
+        stage('git'){
+            steps{
+               git branch: 'main', credentialsId: 'github-pwd', url: 'https://github.com/YashGupta1510/AutomationExitTest.git'
+            }
+        }
+        stage('clean'){
+            steps{
+                bat 'mvn clean'
+            }
+        }
+        stage('Test'){
+            steps{
+                bat 'mvn test'
+            }
+        }
+    }
+}
