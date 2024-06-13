@@ -7,17 +7,6 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="SearchPageTest">
-        <methods>
-          <include name="sortLowToHigh"/>
-          <include name="filterByAmount"/>
-          <include name="setup"/>
-          <include name="setup"/>
-          <include name="checkPagination"/>
-          <include name="getResult"/>
-          <include name="finishReport"/>
-        </methods>
-      </class> <!-- SearchPageTest -->
       <class name="HomePageTest">
         <methods>
           <include name="setup"/>
@@ -27,15 +16,6 @@
           <include name="finishReport"/>
         </methods>
       </class> <!-- HomePageTest -->
-      <class name="CartPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="setup"/>
-          <include name="getResult"/>
-          <include name="addToCartTest"/>
-          <include name="finishReport"/>
-        </methods>
-      </class> <!-- CartPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

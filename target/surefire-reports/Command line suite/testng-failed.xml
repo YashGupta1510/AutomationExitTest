@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="HomePageTest">
+        <methods>
+          <include name="homePageLogoFail"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="finishReport"/>
+        </methods>
+      </class> <!-- HomePageTest -->
+      <class name="SearchPageTest">
+        <methods>
+          <include name="sortLowToHigh"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="finishReport"/>
+        </methods>
+      </class> <!-- SearchPageTest -->
+      <class name="CartPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="updateCartCount"/>
+          <include name="getResult"/>
+          <include name="addToCartTest"/>
+          <include name="finishReport"/>
+        </methods>
+      </class> <!-- CartPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
