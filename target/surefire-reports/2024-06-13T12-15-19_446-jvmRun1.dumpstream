@@ -1,3 +1,0 @@
-# Created at 2024-06-13T12:15:22.002
-Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because "listenerUtils.TestStatusListener.extentTest" is null
-
