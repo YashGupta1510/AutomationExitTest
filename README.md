@@ -71,5 +71,5 @@ This project automates 20 test cases for Flipkart.com using Selenium WebDriver, 
 
 ## Contributors:
 
-- **Yash Gupta** - *Initial work* - [Your GitHub Profile](https://github.com/YashGupta1510)
+- **Yash Gupta** - *Initial work* - [YashGupta1510](https://github.com/YashGupta1510)
 
